@@ -1,98 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
 body {
-    margin: 0;
-    font-family: 'Orbitron', sans-serif;
-    background: linear-gradient(135deg, #0f0f1a, #1a0033);
-    color: white;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  text-align: center;
 }
 
-/* NAVBAR */
 nav {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px;
-    box-shadow: 0 0 15px #00ffff;
-}
-
-nav h2 {
-    color: #00ffff;
-    text-shadow: 0 0 10px #00ffff;
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 15px;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
-nav ul li a:hover {
-    color: #ff00ff;
-    text-shadow: 0 0 10px #ff00ff;
-}
-
-/* HOME SECTION */
-.home {
-    margin-top: 50px;
-}
-
-.home img {
-    width: 160px;
-    border-radius: 50%;
-    border: 3px solid #00ffff;
-    box-shadow: 0 0 20px #00ffff;
-}
-
-/* GLOW TEXT */
-h1 {
-    font-size: 40px;
-    color: #ff00ff;
-    text-shadow: 0 0 20px #ff00ff;
-}
-
-/* BUTTON */
-button {
-    padding: 10px 20px;
-    background: transparent;
-    border: 2px solid #00ffff;
-    color: #00ffff;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background: #00ffff;
-    color: black;
-    box-shadow: 0 0 20px #00ffff;
-}
-
-/* SECTION STYLE */
-section {
-    padding: 40px;
-}
-
-/* CARD STYLE (for projects) */
 .card {
-    background: rgba(255, 255, 255, 0.05);
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    box-shadow: 0 0 10px #ff00ff;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px #ff00ff;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
